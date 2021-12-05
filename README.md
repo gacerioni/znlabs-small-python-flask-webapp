@@ -2,6 +2,6 @@
 
 TEMP STUFF -  WAIT FOR MY FREAKIN README!
 
-docker build -t harness-znlabs-gabs -f ./containerization/Dockerfile .
+\znlabs-small-python-flask-webapp> docker build -t gacerioni/flask-c-to-f-converter:1 -f ./containerization/Dockerfile .
 
 docker run -p 80:5000  harness-znlabs-gabs
