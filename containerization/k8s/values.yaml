@@ -1,7 +1,7 @@
 name: znlabs-flask-${env.name}
 replicas: 1
 
-image: ${artifact.metadata.image}
+image: <+artifact.image>
 
 createNamespace: true
 namespace: ${infra.kubernetes.namespace}
