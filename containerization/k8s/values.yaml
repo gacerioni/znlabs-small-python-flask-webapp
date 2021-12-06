@@ -1,4 +1,4 @@
-name: znlabs-flask-<+environment.name>
+name: <+stage.variables.name>
 replicas: 1
 
 image: <+artifact.image>
